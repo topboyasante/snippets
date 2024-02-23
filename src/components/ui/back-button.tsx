@@ -5,7 +5,11 @@ import { Button } from "./button";
 
 function BackButton() {
   const router = useRouter();
-  return <Button onClick={() => router.back()}>Go Back</Button>;
+  return (
+    <div className="my-5">
+      <Button onClick={() => router.back()}>Go Back</Button>
+    </div>
+  );
 }
 
 export default BackButton;

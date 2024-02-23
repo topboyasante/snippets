@@ -15,7 +15,7 @@ function Page() {
         <BackButton />
       </div>
       <div>
-        <h2 className="text-3xl font-semibold">Create A Snippet</h2>
+        <h2 className="font-semibold">Create A Snippet</h2>
         <p className="text-[#a3a3a3] text-md">Lorem ipsum dolor sit amet.</p>
       </div>
       <div className="my-8">

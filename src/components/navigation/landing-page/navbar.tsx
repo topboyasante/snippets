@@ -4,7 +4,7 @@ import Logo from "@/components/ui/logo";
 
 function Navbar() {
   return (
-    <nav className="w-screen h-[7vh] fixed top-0 bg-white dark:bg-black">
+    <nav className="w-screen h-[7vh] fixed top-0 bg-white dark:bg-[#0c0a09]">
       <div className="max-w-screen-xl mx-auto h-full p-5 flex justify-between items-center">
         <Logo />
         <div className="flex items-center gap-5">
